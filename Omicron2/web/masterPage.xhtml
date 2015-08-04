@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/default.css"/>
+        <h:outputStylesheet name="./css/cssLayout.css"/>
+        <h:outputStylesheet name="./css/interfazUsuario.css"/>
+        <h:outputScript name="srcs/js/Three.js"/>
+        <h:outputScript name="srcs/js/Detector.js"/>
+        <h:outputScript name="srcs/js/Stats.js"/>
+        <h:outputScript name="srcs/js/OrbitControls.js"/>
+        <h:outputScript name="srcs/js/THREEx.KeyboardState.js"/>
+        <h:outputScript name="srcs/js/THREEx.FullScreen.js"/>
+        <h:outputScript name="srcs/js/THREEx.WindowResize.js"/>
+        <h:outputScript name="srcs/js/threex.domevents.js"/>
+        <h:outputScript name="js/animacion.js"/>
+        
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"></link>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/li...;"></script>
+        
+        
+        
+        <title></title>
+    </h:head>
+    
+    <h:body>
+        
+        
+           
+                
+                <nav class="navbar navbar-inverse" style="float:top; background: black !important; box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);" role="navigation">
+                <div class="navbar-header-inverse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Desplegar navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                 </div>
+            </nav>
+            
+        
+        
+        
+            <ui:insert name="content"></ui:insert>
+        
+        
+    </h:body>
+    
+</html>

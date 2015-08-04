@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-jul-2015, 13:26:55
+    Author     : jebus
+*/
+
+#coTop
+{
+    
+    width:1280px;
+    height:150px;
+    margin-top:-4px;
+}
+
+#mundo{
+    background-image:url("#{resource['images:nebula-xneg.png']}");
+    width:300px;
+    height:114px;
+    float:right;
+    margin-right:20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+}
+
+#titulo{
+    
+    width:885px;
+    height:80px;
+    margin-left:20px;
+    position:relative;
+    bottom: -39px;
+}
+
+.Titulos
+{
+    font-size: 40px;
+    
+}
+
+canvas{
+	background-image:url("#{resource['images:nebula-xneg.png']}");
+	/*margin-top: 15% !important;*/
+	width: 885px !important;
+        height: 450px !important; 
+        position:relative;
+	margin-left: 20px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+        z-index:1;
+       }
+       
+#barraArbol
+{
+    background-color: black;
+    width:300px;
+    height:450px;
+    float:right;
+    margin-right:20px;
+    z-index:1;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    
+    
+}
+
+@keyframes mapfront_spin {
+  0% {
+    background-position: 400px 0%;
+  }
+  
+  100% {
+    background-position: 0 0%;
+  }
+}
+
+@keyframes mapback_spin {
+  0% {
+    background-position: 0 0%;
+  }
+  
+  100% {
+    background-position: 400px 0%;
+  }
+}
+
+@-webkit-keyframes mapfront_spin {
+  0% {
+    background-position: 400px 0%;
+  }
+  
+  100% {
+    background-position: 0 0%;
+  }
+}
+
+@-webkit-keyframes mapback_spin {
+  0% {
+    background-position: 0 0%;
+  }
+  
+  100% {
+    background-position: 400px 0%;
+  }
+  
+}
+.frontal {
+  width: 100px;
+  height:100px;
+  background: url(http://1.bp.blogspot.com/-R7NM2HBq--Q/UesCwsosv3I/AAAAAAAAKrs/ZZm2CMlqVWs/s1600/1.png);
+  background-size: 100px 100px;
+  z-index: 5;
+  position: relative;
+  top:-5px;
+  left: 95px;
+  margin-top: 10px;
+  
+}
+.back {
+  width: 100px;
+  height: 100px;
+  background: url(http://1.bp.blogspot.com/-Hke9nBhL3Gc/UesDBMdQypI/AAAAAAAAKr0/4d9J8v5i58o/s1600/2.png);
+  background-size: 100px 100px;
+  position: relative;
+  top: -254px;
+  left: 95px;
+  z-index: 2;
+  margin-top: 10px;
+}
+.mapfront {
+  border-radius: 300px;
+  width: 83px;
+  height: 59px;
+  position: relative;
+  top: -96px;
+  left: 102px;
+  z-index: 4;
+  margin-top: 10px;
+}
+
+.mapback {
+  border-radius: 300px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -171px;
+  left: 107px;
+  z-index: 4;
+  margin-top: 10px;
+}
+.mapfront {
+  background: url(http://1.bp.blogspot.com/-M5AZ_16w8b4/UesDQ6r3miI/AAAAAAAAKr8/Sj0Tu25SgWA/s1600/3.png) repeat-x;
+  -webkit-animation: mapfront_spin 15s linear infinite;
+  animation: mapfront_spin 35s linear infinite;
+  background-size: 186px 67px;
+}
+.mapback {
+  background: url(http://2.bp.blogspot.com/-PEUhx5zxLcg/UesDeRIwkmI/AAAAAAAAKsE/XvusGF7_Omc/s1600/4.png) repeat-x;
+  
+  -webkit-animation: mapback_spin 15s linear infinite;
+  animation: mapback_spin 35s linear infinite;
+  background-size: 100px 100px;
+}      
+       
+        
+
+         
+
+        
+
+
+
+
+
+
